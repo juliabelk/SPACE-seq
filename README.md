@@ -1,6 +1,6 @@
 # SPACE-seq
 
-This repository includes scripts to analyze SPACE-seq data (spatial multi-omic data generated using the 10X Visium platform). Please find more details in the accompanying SPACE-seq manuscript (Huang*, Belk* et.al., _in review_).
+This repository includes scripts to analyze SPACE-seq data (spatial multi-omic data generated using the 10X Visium platform). Please find more details in the accompanying SPACE-seq manuscript (Huang*, Belk* et.al., _PNAS_ 2025; PMID:40249782).
 
 - `spaceranger_cyt_real.sh` is the first script which runs the 10X spaceranger pipeline
 - `bam_to_tbl.R` extracts the corrected cell barcodes and UMIs from the 10X spaceranger bam file for each read
